@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+body{
+    font-family: 'Anek Telugu', sans-serif;
+
+}
+.font{
+    font-size: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+ .content-section {
+    margin-bottom: 125px;
+} 
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-images{
+    height: 350px;
+    width: 350px;
+}
+
+.display-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fixed{
+    height: 500px;
+    width: 460px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.iimages{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+.pack-size{
+    margin: 35px 0px;
+}
+.heading{
+font-weight: bold;
+}
+
+.add-item{
+    position: relative;
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;  
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    margin: 10px 0px;
+
+  }
+
+.add-item:active,
+.active {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  background-color: rgb(140, 197, 140);
+}
+
+.quant{
+    margin: 35px 0px;
+}
+
+.qunt-btn{
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.pay-btn{
+    background-color: rgb(65, 179, 224);
+    color: white;
+    height: 30px;
+    border-radius: 25px;
+}
+
